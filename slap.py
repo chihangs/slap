@@ -9,7 +9,7 @@ Created on Thu Jul 28 04:13:17 2022
 #now slap occurs to whole list of arrays, but need to slap individual array inside x instead
 """
 
-
+import numpy as np
 
 def slap(x):
     variants={}
