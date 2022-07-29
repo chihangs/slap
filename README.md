@@ -1,2 +1,2 @@
 # SLAP
-Switchable Lightweight Anti-symmetric Pre-processing
+Switchable Lightweight Anti-symmetric Processing
