@@ -25,11 +25,12 @@ python train_v12.py
 ```
 
 ### Overview of Files
+
 #### New Method File
-slap6b.py: the most updated file for the new method SLAP, with relevant functions. To be incorporated into training files and experiment files.
+slap6b.py: the most updated file for the new method SLAP, with relevant functions. Used by training files and experiment files.
 
 #### Training Files
-The following 6 files for training AI were substantially upgraded from https://github.com/junxiaosong/AlphaZero_Gomoku which had copyright © 2017 Junxiao Song and MIT license. Upgrades include multi-processing and multi-tiers of evaluations, fixing bugs, aligining with original AlphaZero algorithm more closely, adaptively decreasing learning rate based on standard deviation of validation loss, speeding up by consistent data format and quicker winner check, aligning positions to array position index style (instead of co-ordinate style), more options to set configurations e.g. options to use n layers of residual blocks and extra FC layer for action etc. See details in code comments.
+The following 6 files for training AI were substantially upgraded from https://github.com/junxiaosong/AlphaZero_Gomoku which had copyright © 2017 Junxiao Song and MIT license. Upgrades include multi-processing and multi-tiers of evaluations, fixing minor bugs, aligining with AlphaZero paper more closely, adaptively decreasing learning rate based on standard deviation of validation loss, speeding up by 100% by consistent data format and quicker winner check, export of loss and result data, aligning game positions to array index style (instead of co-ordinate style), more options to set configurations e.g. options to use n layers of residual blocks and extra FC layer for action etc. See details in code comments.
 game_array3.py
 mcts_pure.py
 mcts_alpha0_reuse.py
@@ -37,9 +38,14 @@ policy10a.py
 train_v12.py
 human_play_v12.py
 
-
 #### Experiment Files
+synthetic.py: create synthetic Gomoku states for testing neural network learning (i.e. decouple from dynamics of reinforcement learning)
+validation_loss4a.py: use synthetic.py to calculate validation and training losses for only neural network learning in different experiments
+train_multi2.py: train AI with multiple settings for experiments
 
 #### Outdated Files
 Marked as 'outdate', these files are kept as they were used by experiment files at that time and kept as is. The outdated version did not affect materially (if any) the experiment files for the purpose at that time. If users are using experiment files and woud like to change some configurations or features, they are advised to read about changes among different versions to decide whether to change to latest version for both validity and compatibility, based on their usage. 
+
+### Documentation of the Experiments
+See Report.
 
