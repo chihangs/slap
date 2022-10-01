@@ -16,7 +16,7 @@ To play with provided models, run the following script from the directory:
 ```
 python human_play_v12.py  
 ```
-To train the AI model from scratch with pytorch, set your config inside the file and run:   
+To train the AI model from scratch, set your config inside the file and run:   
 ```
 python train_v12.py
 ```
