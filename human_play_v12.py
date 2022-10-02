@@ -53,7 +53,7 @@ class Human(object):
         return "Human {}".format(self.player)
 
 
-def run_game(model_file = './weights/checkpoint_v11id2_n0(2)_Adam_0.25noise0.25_0.3D_0.25expl_0.004lr_0.0001L2_0drp_10000buffer_10e_5000.model', use_slap=False, cc_fn=None, dropout=0, computer_first=1):
+def run_game(model_file = './weights/checkpoint_v12_n0(2)_Adam_0.25noise0.25_0.3D_0.25expl_0.004lr_0.0001L2_0drp_10000buffer40000_10e_5000.model', use_slap=False, cc_fn=None, dropout=0, computer_first=1):
     """
     computer_first: 0 for human first, 1 for computer first
     Further Config here
