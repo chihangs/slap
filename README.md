@@ -38,7 +38,7 @@ The 6 files above for training AI were upgraded from https://github.com/junxiaos
 synthetic.py: create synthetic Gomoku states for testing neural network learning (i.e. decouple from dynamics of reinforcement learning)
 validation_loss4a.py: use synthetic.py to calculate validation and training losses for only neural network learning in different experiments
 train_multi2.py: train AI with multiple settings for experiments
-AIvsAI_flexible.py: AI playing with another AI model; greedy and deterministic - exact repetition of games for same start player as noise is always disabled for non self-play. If time allows, add the noise enable option.
+AIvsAI_flexible.py: AI playing with another AI model; greedy and deterministic - exact repetition of games for same start player as noise is always disabled for non self-play. If time allows, build the noise enable option.
 
 #### Outdated Files
 Marked as 'outdate', these files are kept as they were used by experiment files at that time and kept as is. The outdated version did not affect materially (if any) the experiment files for the purpose at that time. If users are using experiment files and woud like to change some configurations or features, they are advised to read about changes among different versions to decide whether to change to latest version by taking into account the compatibility and the validity based on their usage. 
