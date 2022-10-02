@@ -19,7 +19,7 @@ To play with AI, run the following script from the directory:
 ```
 python human_play_v12.py  
 ```
-To train the AI model from scratch, set your configuarions inside the file and run:   
+To train the AI model from scratch, set your configurations inside the file and run:   
 ```
 python train_v12.py
 ```
