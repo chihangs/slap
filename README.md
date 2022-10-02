@@ -30,7 +30,7 @@ python train_v12.py
 slap6b.py: the most updated file for the new method SLAP, with relevant functions. Used by training files and experiment files.
 
 #### Training Files
-The 6 files below for training AI were substantially upgraded from https://github.com/junxiaosong/AlphaZero_Gomoku which had copyright © 2017 Junxiao Song and MIT license. My upgrades include multi-processing and multi-tiers of evaluations, fixing minor bugs, aligining with AlphaZero paper more closely, adaptively decreasing learning rate based on standard deviation of validation loss, speeding up by 100% by consistent data format and quicker winner check, export of loss and result data, aligning game positions to array index style (instead of co-ordinate style), more options to set configurations e.g. options to use n layers of residual blocks and extra FC layer for action etc. See details of modifications in code comments and report.
+The 6 files below for training AI were upgraded from https://github.com/junxiaosong/AlphaZero_Gomoku which had copyright © 2017 Junxiao Song and MIT license. My upgrades include multi-processing and multi-tiers of evaluations, fixing minor bugs, aligining with AlphaZero paper more closely, adaptively decreasing learning rate based on standard deviation of validation loss, speeding up by 100% by consistent data format and quicker winner check, export of loss and result data, aligning game positions to array index style (instead of co-ordinate style), more options to set configurations e.g. options to use n layers of residual blocks and extra FC layer for action etc. See details of modifications in code comments and report.
 
 game_array3.py, mcts_pure.py, mcts_alpha0_reuse.py, policy10a.py, train_v12.py, human_play_v12.py
 
