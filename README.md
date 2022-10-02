@@ -38,7 +38,7 @@ game_array3.py, mcts_pure.py, mcts_alpha0_reuse.py, policy10a.py, train_v12.py, 
 synthetic.py: create synthetic Gomoku states for testing neural network learning (i.e. decouple from dynamics of reinforcement learning)
 validation_loss4a.py: use synthetic.py to calculate validation and training losses for only neural network learning in different experiments
 train_multi2.py: train AI with multiple settings for experiments
-AIvsAI_flexible.py: AI playing with another AI model; exact repetition of game if same start player as noise is disabled for non self-play
+AIvsAI_flexible.py: AI playing with another AI model; greedy and deterministic - exact repetition of games for same start player as noise is always disabled for non self-play
 
 #### Outdated Files
 Marked as 'outdate', these files are kept as they were used by experiment files at that time and kept as is. The outdated version did not affect materially (if any) the experiment files for the purpose at that time. If users are using experiment files and woud like to change some configurations or features, they are advised to read about changes among different versions to decide whether to change to latest version for both validity and compatibility, based on their usage. 
