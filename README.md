@@ -51,5 +51,5 @@ AIvsAI_flexible.py: AI playing with another AI model; greedy and deterministic -
 Marked as 'outdate', these files are kept as they were used by experiment files at that time and kept as is. The outdated version did not affect materially (if any) the experiment files for the purpose at that time. If users are using experiment files and woud like to change some configurations or features, they are advised to read about changes among different versions to decide whether to change to latest version by taking into account the compatibility and the validity based on their usage. 
 
 ### Documentation of the Experiments
-See report.
+See report. https://github.com/chihangs/slap/tree/main/report
 
